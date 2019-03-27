@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/visor"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:autofillHints="."
+        android:background="@color/colorPrimary"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:gravity="end|bottom"
+        android:hint="."
+        android:inputType="numberDecimal|none"
+        android:text="0"
+        android:textColor="@color/colorNumeros"
+        android:textSize="60sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/c"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/maisOuMenos"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/maisOuMenos"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/porcento"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/porcento"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/barra"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/barra"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number7"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_7"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number8"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_8"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number9"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_9"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/multiplicar"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number4"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_4"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number5"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_5"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number6"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_6"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/menos"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/menos"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number1"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_1"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number2"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_2"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/number3"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_3"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/mais"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="@color/colorButtonDark"
+            android:text="@string/mais"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/number0"
+            android:layout_width="211dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/_0"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/ponto"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorButtonLight"
+            android:text="@string/ponto"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/igual"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:background="@color/colorButtonDestaque"
+            android:text="@string/igual"
+            android:textColor="@color/colorNumeros"
+            android:textSize="25sp"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
